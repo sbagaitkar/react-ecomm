@@ -32,6 +32,7 @@ export default function Products() {
             <p style={{ textAlign: "justify", padding: "10px" }}>
               {value.desc}
             </p>
+            <p>Rating: {value.rating}</p>
             <div className="priceBtn">
               <div className="priceTxt">₹{value.price}</div>
               <div className="Product-button">
